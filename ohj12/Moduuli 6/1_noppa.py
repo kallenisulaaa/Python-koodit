@@ -1,14 +1,12 @@
 import random
 
-def noppa(tahko):
-    return random.randint(1,tahko)
+def noppa():
+    return random.randint(1,6)
 
 def pa():
-    tahko = int(input("Anna nopan tahkojen määrä:\n"))
-    maksimi = tahko
     silm = 0
-    while silm != maksimi:
-        silm = noppa(tahko)
+    while silm != 6:
+        silm = noppa()
         print(f"Heiton tulos: {silm}")
 
 
