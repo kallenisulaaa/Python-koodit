@@ -16,7 +16,7 @@ def main():
             else:
                 print("Lentoasemaa ei löytynyt.\n")
         elif valinta == "3":
-            print("Ohjelmaa suljetaan...")
+            print("Ohjelmaa suljetaan.")
             break
         else:
             print("Virheellinen valinta, yritä uudelleen.\n")
