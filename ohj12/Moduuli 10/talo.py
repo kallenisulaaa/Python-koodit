@@ -14,3 +14,8 @@ class Talo:
             print("Hissiä ei ole.")
         else:
             self.hissit[numero - 1].siirry_kerrokseen(kohde)
+
+    def palo(self):
+        print("Palohälytys. Hissit siirtyvät pohjakerrokseen.")
+        for hissi in self.hissit:
+            hissi.siirry_kerrokseen(self.alin)
